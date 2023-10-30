@@ -14,23 +14,44 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <title>Sushi</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-        <a href="#" class="logo">SUSHIMAN</a>
-        <ul class="nav-list">
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">foods</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">about us</a></li>
-            <li><button class="button-header"> <svg>
-                <use href="img/symbol-defs.svg#icon-search"></use>
-            </svg></button></li>
-        </ul>
-       
+      <a href="#" class="logo">SUSHIMAN</a>
+      <ul class="nav-list">
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">foods</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">about us</a></li>
+        <li>
+          <button class="button-header">
+            <svg>
+              <use href="img/symbol-defs.svg#icon-search"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
     </header>
-    <main><section class="section-mission"></section></main>
+    <main>
+      <section class="section-mission">
+        <button class="mission-button">
+          Learn More
+          <svg width="24px" height="24px" class="svg-mission">
+            <use href="img/symbol-defs.svg#icon-arrow-up-right"></use>
+          </svg>
+        </button>
+        <div class="div-mission">
+          <p class="mission-p">About Us / 私たちに関しては</p>
+          <h2 class="mission-h2">Our mission is to bring true Japanese flavours to you.</h2>
+          <p class="mission-subtitle">
+            We will continue to provide the experience of Omotenashi, the
+            Japanese mindset of hospitality, with our shopping and dining for
+            our customers.
+          </p>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
