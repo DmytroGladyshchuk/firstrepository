@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  color: #1f373d;
+  font-family: 'Montserrat';
+  /* font-weight: 400; */
+}
+
+
+.container {
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  outline: 1px solid gray;
+}
