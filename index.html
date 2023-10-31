@@ -18,7 +18,9 @@
   </head>
   <body>
     <header class="header">
-      <a href="#" class="logo">SUSHIMAN</a>
+      <div>
+        <a href="#" class="logo">SUSHIMAN</a>
+      </div>
       <ul class="nav-list">
         <li><a href="#">Menu</a></li>
         <li><a href="#">foods</a></li>
@@ -43,7 +45,9 @@
         </button>
         <div class="div-mission">
           <p class="mission-p">About Us / 私たちに関しては</p>
-          <h2 class="mission-h2">Our mission is to bring true Japanese flavours to you.</h2>
+          <h2 class="mission-h2">
+            Our mission is to bring true Japanese flavours to you.
+          </h2>
           <p class="mission-subtitle">
             We will continue to provide the experience of Omotenashi, the
             Japanese mindset of hospitality, with our shopping and dining for
@@ -51,7 +55,70 @@
           </p>
         </div>
       </section>
+      <section class="testimonial container">
+        <div class="slideshow-container photo-list">
+          <div class="mySlides slider photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Ronald Richards</h3>
+              <p class="p-photo">Product Manager</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides slider photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Snoop dogg</h3>
+              <p class="p-photo">Hip hop singer</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides slider photo-item">
+            <div class="name-photo">
+              <h3 class="h3-photo">Amogus</h3>
+              <p class="p-photo">Game Abobus</p>
+            </div>
+            <div class="photo-item-p">
+              <p class="testimonial-p">
+                Incididunt cillum do sint sint enim ullamco id deserunt mollit
+                qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.
+                Do nulla velit labore occaecat do deserunt Lorem magna officia
+                incididunt consectetur amet. Sunt consectetur veniam minim ex
+                commodo sint non. Occaecat aute officia excepteur non laboris id
+                qui ad.
+              </p>
+            </div>
+          </div>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        </div>
+        <br />
+        <div class="dot-list">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
     </main>
     <footer></footer>
+    <script src="slider.js"></script>
   </body>
 </html>
